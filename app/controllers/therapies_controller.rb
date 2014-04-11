@@ -1,5 +1,4 @@
 class TherapiesController < ApplicationController
-  class CraniosacralsController < ApplicationController
 
   def index
     @therapies = Therapy.all
