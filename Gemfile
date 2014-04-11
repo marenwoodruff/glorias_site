@@ -38,6 +38,8 @@ group :development, :test do
     gem 'rspec-rails'
     gem 'factory_girl_rails'
 end
+
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
