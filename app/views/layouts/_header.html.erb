@@ -1,0 +1,34 @@
+<div>
+  <div class="line"></div>
+  <div class="title">
+    <div class="name">
+      <div class="flower">
+        <%= image_tag("lotus2.jpg", :alt => "lotus flower") %>
+      </div>
+      <h1 class="gloria">Gloria Flores <p class="certificate">CST-D</p></h1>
+      <h2 class="certification">Diplomate Certified</h2>
+      <h2 class="cranio">Certified Craniosacral Therapist</h2>
+      <p class="health" >
+        Spiritual Health Coach​ License -  #1263 <br />
+        California State CMT - #23263 <br />
+        Board Certified Holistic Health Practitioner <br />
+      </p>
+    </div>
+
+    <div>
+      <%= render :partial => 'layouts/carousel' %>
+    </div>
+    <div class="line1"></div>
+  </div>
+
+  
+  <ul class="pagination">
+    <li><%= link_to "Home", root_path, :class => "page" %></li>
+    <li><%= link_to "About", therapies_path, :class => "page" %></li>
+    <li><%= link_to "Treatment", new_therapy_path, :class => "page" %></li>
+    <li><%= link_to "Learn More", edit_therapy_path(:therapy_id), :class => "page" %></li>
+    <li><%= link_to "Visit Us", therapy_path(:therapy_id), :class => "page" %></li>
+  </ul>
+
+  <div class="line2"></div>
+</div>

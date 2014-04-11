@@ -1,31 +1,95 @@
-<h1>Listing therapies</h1>
+<body class="body3">
+<%= render :partial => 'layouts/header' %>
+  
+<div class="info0">
+    <div class="expertise1">
+      <p>
+        <h4 class="areas"><u><strong>Areas of expertise:</strong></u></h4> 
+        <ul>
+          <li>Stress Management </li> 
+          <li>Chronic Pain Relief </li> 
+          <li>TMJ & Teeth Grinding </li> 
+          <li>Headaches & Migraines </li> 
+          <li>Neck & Back Pain </li> 
+          <li>PTSD </li> 
+          <li>Car Accidents </li> 
+          <li>Depression & Anxiety </li> 
+        </ul>
+      </p>  
+    </div>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Therapy</th>
-      <th>Address</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+    <div class="index-main">
+        <h2 class="main-title">About Gloria Flores, CST-D</h2>
 
-  <tbody>
-    <% @therapies.each do |therapy| %>
-      <tr>
-        <td><%= therapy.name %></td>
-        <td><%= therapy.therapy %></td>
-        <td><%= therapy.address %></td>
-        <td><%= link_to 'Show', therapy %></td>
-        <td><%= link_to 'Edit', edit_therapy_path(therapy) %></td>
-        <td><%= link_to 'Destroy', therapy, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+        <div>
+            <h3 class="CST-D">Gloria Flores, CST-D<h3> <br />
+            <p class="qualified">
+                ﻿Upledger Institute Diplomate Certified <br />Craniosacral Therapist and Teacher <br />
+                Board Certified H.H.P.  (Holistic Health Practitioner) <br />
+                FSHLB Licensed Spiritual Health Coach <br />
+                California State Certified Massage Therapist <br />
+            </p>
+        </div>
 
-<br>
+        <br />
 
-<%= link_to 'New Therapy', new_therapy_path %>
+        <p>
+            Gloria has studied Alternative Therapies for over 20 years, with the goal of learning ways to help people overcome physical and emotional pain. She considers herself a life-long student and constantly updates her skills and knowledge with continuing education classes.
+        </p>
+        
+        <p>
+            Her clinical experience includes working with people in Hospice Care, Nursing Homes, patients with Chronic Illnesses, and Military Veterans with Post Traumatic Stress Disorder (PTSD).
+        </p>
+
+        <p>
+            Gloria is a published Alternative Medicine Author and Teacher. She teaches CranioSacral Therapy Continuing Education courses to healthcare professionals and the public. For a class schedule please see the 'Learn More' page of this website.
+        </p>
+ 
+        <br />
+
+        <h2>Certifications/Licenses</h2>
+        <div>
+            <h5><b>Upledger Institute</b></h5>
+            <p>
+                Techniques and Diplomate Certified Craniosacral Therapist <br />
+                Certified Teaching Assistant and Instructor/Workshop Presenter <br />
+            </p>
+        </div>
+
+        <div>
+            <h5><b>UCLA</b></h5>
+            <p>
+                HIPPA Certified Practitioner
+            </p>
+        </div>
+ 
+        <div>
+            <h5><b>National Certification Board for Therapeutic Massage & Bodywork</b></h5>
+            <p>
+                Certified Continuing Education Provider for Craniosacral Education #451863-12
+            </p>
+        </div>
+
+        <div>
+            <h5><b>State of California</b></h5>
+            <p>
+                Certified Massage Therapist #23263
+            </p>
+        </div>
+
+        <div>
+            <h5><b>Federation of Spiritual Health Coach License Board</b></h5>
+            <p>
+                Nationally Licensed Spiritual Health Coach #1263
+            </p>
+        </div>
+    </div>
+</div>
+
+<p class="copyright">© 2013 by Gloria Flores, CST-D</p>
+
+
+
+
+
+

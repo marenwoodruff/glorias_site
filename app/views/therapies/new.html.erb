@@ -1,5 +1,99 @@
-<h1>New therapy</h1>
+<%= render :partial => 'layouts/header' %>
 
-<%= render 'form' %>
+<div class="info1">
 
-<%= link_to 'Back', therapies_path %>
+  <div class="testimonials">
+
+    <div>
+        <h3 class="testimonial">Testimonials</h3>
+        <br />
+        <p>
+            “I decided to see Gloria for stress and anxiety that were causing me to suffer from constant migraines. After about four sessions, I was able to recognize when I begin to feel stress coming on and do techniques to relax myself. With ocassional  follow-up sessions with Gloria my migraines are gone.”
+        </p>
+        <span class="client"> - Natalie W. </span>
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div>
+        <p>
+            “I had problems sleeping at night because of past trauma from my childhood. Craniosacral Therapy has helped me to get my obsessive thoughts under control, and now I sleep through the night - every night."
+        </p>
+        <span class="client"> - Elliot S. </span>
+    </div>
+
+    <br />
+    <br />
+
+    <h5 class="rates"><u><b>Rates</b></u></h5>
+    <div>
+        <p class="consult">Initial Consultation and Session:  $100.00</p>
+        <ul>
+            <li>Therapeutic Plan for course of Treatment</li>
+            <li>Educational materials</li>
+            <li>Referrals as appropriate</li>
+        </ul>
+        <p class="consult">Follow-Up Sessions: 1 hour - $100.00</p>
+    </div>
+
+    <br />
+
+    <div class="button">
+        <%= link_to 'Make an Appointment', therapy_path(:therapy_id), class: "btn btn-default"%>
+    </div>
+  </div>
+
+
+  <div class="treatment">
+    <h2 class="help">How Craniosacral Therapy Can Help You</h2>
+
+    <div>
+        <h5><b>What is the dollar cost of a month of medications? Or time off from work in needless pain?</b></h5>
+        <p>
+            What is the cost of a surgery, or time lost in a slow convalescence? Craniosacral Therapy may help you avoid surgery, hasten your recovery from a serious illness or injury, and reduce, or eventually eliminate costly medications. 
+        </p>
+    </div>
+
+    <div>
+        <h5><b>Insurance Coverage</b></h5>
+        <p>
+            Craniosacral Therapy is now recognized as an effective therapy in the field of Alternative and Complimentary Medicine. This means that your session may be covered by your medical insurance with a prescription from your primary care physician and/or approval from your insurance company. I can provide you with receipts for your sessions so that you can request reimbursement from your insurance company. 
+        </p>
+    </div>
+
+    <div>
+        <h5><b>To prepare for your session</b></h5>
+        <p>
+            Please plan to arrive a few minutes early for your first session in order to fill out required paperwork and spend time discussing the reason for your visit. We recommend that clients wear loose, comfortable clothing, since clients remain fully clothed during their session. 
+        </p>
+    </div>
+
+    <br />
+
+    <h2 class="help">What to Expect During & After Your Session</h2>
+
+    <div>
+        <h5><b>During your session</b></h5>
+        <p>
+            You may become deeply relaxed, or even fall asleep. Experiences are individual and may differ from one session to the next. Some people talk a great deal, recalling memories. Others experience sensations within their bodies, such as tingling, heat/cold, numbness, pulsations, warmth, streatching of tissues, or a feeling of better energy flow. Some people are not aware of feeling much of anything during the evaluation and treatment process. 
+        </p>
+    </div>
+
+    <div>
+        <h5><b>After your session</b></h5>
+        <p>
+            Immediately after your session most people feel blissfully relaxed. This is because as your nervous system relaxes during your session, endorphins are released. It is wise to listen to your body at this time, and give yourself some space to integrate the changes that were made. A reduction in pain or an increase in function and range of motion may happen immediately, or gradually happen over the next few days or weeks. Although Craniosacral Therapy is very gentle, the effects can be powerful. Some people may be aware of general aches and pains that 'come and go' for a few days after their session. Other people may feel emotions after their session. These sensations are temporary and a normal part of your body's healing process. 
+        </p>
+    </div>
+  </div>
+
+
+</div>
+
+<p class="copyright">© 2013 by Gloria Flores, CST-D</p>
+
+
+

@@ -1,19 +1,30 @@
-<p id="notice"><%= notice %></p>
+<body class="body1">
+<%= render :partial => 'layouts/header' %>
 
-<p>
-  <strong>Name:</strong>
-  <%= @therapy.name %>
-</p>
+<div class="info2">
+    <div class="map">
+        <%= image_tag("map.png", :class => "map-img",:alt => "map of location") %>
+    </div>
+    <div>
+        <h2 class="appointment">Make an Appointment</h2>
 
-<p>
-  <strong>Therapy:</strong>
-  <%= @therapy.therapy %>
-</p>
+        <br />
+        
+        <div class="contact">
+            <h5>Gloria Flores, CST-D</h5>
+            <br />
+            <p>
+                Craniosacral Therapy <br />
+                10000 Riverside Dr., #17 <br />
+                Toluca Lake, CA 91602 <br />
+            </p>
+            <br />
+            <p>
+                Tel: 818-919-3363​ <br />
+                Email: gloria@craniosacralcare.com
+            </p>
+        </div>
+    </div>
+</div>
 
-<p>
-  <strong>Address:</strong>
-  <%= @therapy.address %>
-</p>
-
-<%= link_to 'Edit', edit_therapy_path(@therapy) %> |
-<%= link_to 'Back', therapies_path %>
+<p class="copyright">© 2013 by Gloria Flores, CST-D</p>

@@ -1,34 +1,28 @@
 class TherapiesController < ApplicationController
-  before_action :set_therapy, only: [:show, :edit, :update, :destroy]
+  class CraniosacralsController < ApplicationController
 
-  # GET /therapies
-  # GET /therapies.json
   def index
     @therapies = Therapy.all
   end
 
-  # GET /therapies/1
-  # GET /therapies/1.json
   def show
+    @therapy = Therapy.find_by(name: "Gloria")
   end
 
-  # GET /therapies/new
   def new
     @therapy = Therapy.new
   end
 
-  # GET /therapies/1/edit
   def edit
+    @therapy = Therapy.find_by(name: "Gloria")
   end
 
-  # POST /therapies
-  # POST /therapies.json
   def create
     @therapy = Therapy.new(therapy_params)
 
     respond_to do |format|
       if @therapy.save
-        format.html { redirect_to @therapy, notice: 'Therapy was successfully created.' }
+        format.html { redirect_to @therapy, notice: 'Therapist was successfully created.' }
         format.json { render action: 'show', status: :created, location: @therapy }
       else
         format.html { render action: 'new' }
@@ -37,12 +31,11 @@ class TherapiesController < ApplicationController
     end
   end
 
-  # PATCH/PUT /therapies/1
-  # PATCH/PUT /therapies/1.json
   def update
+    @therapy = Therapy.find(params[:id])
     respond_to do |format|
       if @therapy.update(therapy_params)
-        format.html { redirect_to @therapy, notice: 'Therapy was successfully updated.' }
+        format.html { redirect_to @therapy, notice: 'Therapist was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -51,8 +44,6 @@ class TherapiesController < ApplicationController
     end
   end
 
-  # DELETE /therapies/1
-  # DELETE /therapies/1.json
   def destroy
     @therapy.destroy
     respond_to do |format|
@@ -62,11 +53,6 @@ class TherapiesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_therapy
-      @therapy = Therapy.find(params[:id])
-    end
-
     # Never trust parameters from the scary internet, only allow the white list through.
     def therapy_params
       params.require(:therapy).permit(:name, :therapy, :address)
