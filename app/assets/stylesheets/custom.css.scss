@@ -42,12 +42,33 @@ body {
 }
 
 @media(max-width: 481px) {
+  body {
+    width: 480px;
+  }
+  .body {
+    width: 480px;
+  }
+  .body1 {
+    width: 480px;
+  }
+  .body2 {
+    width: 480px;
+  }
   .body3 {
-    width: 460px;
+    width: 480px;
   }
 }
 
 @media(max-width: 401px) {
+  body {
+    width: 400px;
+  }
+  .body {
+    width: 400px;
+  }
+  .body1 {
+    width: 400px;
+  }
   .body2 {
     width: 400px;
   }
@@ -56,6 +77,23 @@ body {
   }
 }
 
+@media(max-width: 321px) {
+  body {
+    width: 300px;
+  }
+  .body {
+    width: 300px;
+  }
+  .body1 {
+    width: 300px;
+  }
+  .body2 {
+    width: 300px;
+  }
+  .body3 {
+    width: 300px;
+  }
+}
 
 /* home page upper */
 
@@ -191,7 +229,6 @@ body {
     margin-left: 220px;
   }
 }
-
 
 @media(max-width: 1367px){
   .copyright {
@@ -417,7 +454,7 @@ body {
   .title {
     margin-left: 10px;
     width: 460px;
-    height: 230px;
+    height: 233px;
   }
   .line {
     margin-left: 10px;
@@ -456,8 +493,8 @@ body {
     padding-bottom: 5px;
   }
   .certificate {
-    padding-right: 5px;
-    margin-top: -32px;
+    padding-right: 3px;
+    margin-top: -1px;
     font-size: 18px;
     padding-bottom: 5px;
     height: 19px;
@@ -474,12 +511,12 @@ body {
     width: 300px;
   }
   .health {
-    padding-left: 24px;
+    padding-left: 10px;
     padding-right: 0px;
-    width: 290px;
+    width: 280px;
   }
   .carousel {
-    margin-top: 60px;
+    margin-top: 62px;
     height: 110px;
     width: 140px;
     float: right;
@@ -557,7 +594,7 @@ body {
     width: 330px;
   }
   .health {
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 0px;
     width: 330px;
   }
@@ -572,40 +609,40 @@ body {
     padding-top: 17px;
   }
   .title {
-    margin-left: 10px;
-    width: 300px;
-    height: 230px;
+    margin-left: 2px;
+    width: 280px;
+    height: 260px;
   }
   .line {
-    margin-left: 10px;
-    width: 300px;
+    margin-left: 2px;
+    width: 280px;
   }
   .line1 {
-    margin-left: 10px;
-    width: 300px;
+    margin-left: 2px;
+    width: 280px;
   }
   .line2 {
-    margin-left: 10px;
-    width: 300px;
+    margin-left: 2px;
+    width: 280px;
     margin-top: -15px;
   }
   .pagination {
-    margin-left: 10px;
-    width: 301px;
+    margin-left: 2px;
+    width: 281px;
   }
   .page {
-    width: 61px;
-    font-size: 15px;
+    width: 57px;
+    font-size: 13px;
     height: 50px;
-    padding: 10px;
+    padding-left: 0px;
   }
   .flower {
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-right: 2px;
   }
   .name {
-    width: 320px;
+    width: 280px;
   }
   .gloria {
     font-size: 27px;
@@ -613,15 +650,16 @@ body {
     padding-bottom: 5px;
   }
   .certificate {
-    padding-right: 5px;
-    margin-top: -32px;
+    padding-right: 135px;
     font-size: 18px;
     padding-bottom: 5px;
+    margin-top: -20px;
     height: 19px;
   }
   .certification {
-    font-size: 20px;
-    padding-right: 0px;
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 11px;
     width: 300px;
   }
   .cranio {
@@ -810,7 +848,7 @@ a {
     height: 1700px;
   }
   .main {
-    width: 440px;
+    width: 430px;
     padding-left: 30px;
     padding-top: 23px;
     float: center;
@@ -837,19 +875,20 @@ a {
   .info {
     margin-left: 10px;
     width: 380px;
-    height: 1800px;
+    height: 1900px;
   }
   .main {
     width: 360px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 20px;
     float: center;
+    padding-right: 10px;
   }
   .expertise {
     padding-left: 75px;
     width: 500px;
     position: absolute;
-    top: 1250px;
+    top: 1350px;
   }
   .areas {
     padding-right: 15px;
@@ -865,20 +904,25 @@ a {
 
 @media(max-width: 321px){
   .info {
-    margin-left: 10px;
-    width: 300px;
+    margin-left: 2px;
+    width: 280px;
+    height: 2225px;
   }
   .main {
-    width: 300px;
-    padding-left: 30px;
+    width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 23px;
     float: center;
   }
+  .info-title{
+    font-size: 25px;
+  }
   .expertise {
-    padding-left: 100px;
+    padding-left: 33px;
     width: 500px;
     position: absolute;
-    top: 1150px;
+    top: 1700px;
   }
   .areas {
     padding-right: 15px;
@@ -1033,12 +1077,44 @@ h5 {
     height: 1250px;
   }
   .index-main {
-    width: 370px;
-    padding-left: 20px;
+    width: 360px;
+    padding-left: 40px;
     padding-top: 23px;
+    padding-right: 10px;
+  }
+  .main-title {
+    font-size: 25px;
+    width: 380;
   }
   .expertise1 {
     padding-left: 80px;
+  }
+}
+
+@media(max-width: 321px){
+  .info0 {
+    margin-left: 2px;
+    width: 280px;
+    height: 1550px;
+  }
+  .index-main {
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 23px;
+    padding-right: 15px;
+  }
+  .main-title {
+    font-size: 24px;
+    width: 280px;
+  }
+  .licenses {
+    width: 280px;
+    font-size: 24px;
+    padding-right: 10px;
+  }
+  .expertise1 {
+    padding-left: 33px;
+    top: 1600px;
   }
 }
 
@@ -1202,8 +1278,8 @@ h5 {
     padding-left: 40px;
   }
   .treatment {
-    width: 430px;
-    padding-left: 40px;
+    width: 440px;
+    padding-left: 30px;
     padding-top: 25px;
   }
   .rates {
@@ -1241,6 +1317,36 @@ h5 {
   }
   .button {
     padding-left: 30px;
+  }
+}
+
+@media(max-width: 321px){
+  .info1 {
+    margin-left: 2px;
+    width: 280px;
+    height: 2525px;
+  }
+  .testimonials {
+    top: 1900px;
+    position: absolute;
+    width: 260px;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  .testimonial {
+    padding-left: 35px;
+  }
+  .treatment {
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 13px;
+  }
+  .rates {
+    padding-left: 75px;
+  }
+  .button {
+    padding-left: 18px;
   }
 }
 
@@ -1374,6 +1480,21 @@ h5 {
   }
   .map {
     padding-left: 70px;
+  }
+}
+
+@media(max-width: 321px){
+  .info2 {
+    margin-left: 2px;
+    width: 280px;
+    height: 600px;
+  }
+  .appointment {
+    padding-left: 15px;
+    font-size: 25px;
+  }
+  .map {
+    padding-left: 20px;
   }
 }
 
@@ -1599,33 +1720,40 @@ h5 {
 
 @media(max-width: 321px){
   .info3 {
-    margin-left: 10px;
-    width: 620px;
+    margin-left: 2px;
+    width: 280px;
+    height: 1200px;
   }
   .learn {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-top: 45px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
+    font-size: 26px;
   }
   .articles1 {
-    padding-left: 30px;
-    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 290px;
     height: 155px;
   }
   .articles2 {
-    margin-right: 30px;
-    width: 260px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 10px;
+    width: 270px;
     height: 155px;
   }
   .cst-class {
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
     height: 400px;
-    width: 550px;
+    width: 280px;
     float: left;
   }
   .class {
     padding-bottom: 10px;
+    font-size: 26px;
   }
 }
 
