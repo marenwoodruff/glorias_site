@@ -100,7 +100,7 @@ body {
 .title {
   height: 292px;
   width: 1000px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-bottom: 150px;
 }
@@ -207,6 +207,12 @@ body {
 
 .page:hover {
   background-color: #556B2F;
+}
+
+@media(max-width: 1681px){
+  .title {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
@@ -527,7 +533,7 @@ body {
   }
   .certificate {
     padding-left: -50px;
-    padding-top: 10px;
+    padding-top: -20px;
     font-size: 18px;
     padding-bottom: 5px;
   }
@@ -560,7 +566,7 @@ body {
   }
   .title {
     width: 565px;
-    height: 240px;
+    height: 250px;
   }
   .line {
     width: 565px;
@@ -638,7 +644,7 @@ body {
   .title {
     margin-left: 10px;
     width: 460px;
-    height: 233px;
+    height: 240px;
   }
   .line {
     margin-left: 10px;
@@ -674,7 +680,7 @@ body {
   }
   .certificate {
     padding-right: 3px;
-    margin-top: -10px;
+    margin-top: -6px;
     font-size: 18px;
     padding-bottom: 5px;
     height: 19px;
@@ -862,7 +868,7 @@ body {
 .info {
   width: 1000px;
   height: 950px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-top: -10px;
 }
@@ -930,6 +936,12 @@ p, ol, ul, td {
 
 a {
   color: #909000;
+}
+
+@media(max-width: 1681px){
+  .info {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
@@ -1202,7 +1214,7 @@ a {
 .info0 {
   width: 1000px;
   height: 850px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-top: -10px;
 }
@@ -1251,6 +1263,12 @@ h5 {
 
 .yelp {
   font-size: 15px;
+}
+
+@media(max-width: 1680px){
+  .info0 {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
@@ -1443,7 +1461,7 @@ h5 {
 .info1 {
   width: 1000px;
   height: 950px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-top: -10px;
 }
@@ -1495,6 +1513,12 @@ h5 {
 
 .btn.btn-default:hover {
   background-color: #6B8E23;
+}
+
+@media(max-width: 1680px){
+  .info1 {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
@@ -1734,7 +1758,7 @@ h5 {
 .info2 {
   width: 1000px;
   height: 650px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-top: -20px;
 }
@@ -1754,6 +1778,12 @@ h5 {
 
 .contact {
   padding-left: 100px;  
+}
+
+@media(max-width: 1681px){
+  .info2 {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
@@ -1937,7 +1967,7 @@ h5 {
 .info3 {
   width: 1000px;
   height: 700px;
-  margin-left: 340px;
+  margin-left: 440px;
   background-color: white;
   margin-top: -20px;
 }
@@ -1994,6 +2024,12 @@ h5 {
   padding-left: 100px;
   width: 800px;
   float: left;
+}
+
+@media(max-width: 1680px){
+  .info3 {
+    margin-left: 340px;
+  }
 }
 
 @media(max-width: 1550px){
