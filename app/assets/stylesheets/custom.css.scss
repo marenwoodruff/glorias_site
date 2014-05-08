@@ -1776,6 +1776,13 @@ h5 {
   padding-top: 100px;
 }
 
+.office {
+  float: right;
+  padding-top: 15px;
+  padding-right: 35px;
+  clear: both;
+}
+
 .contact {
   padding-left: 100px;  
 }
@@ -1860,13 +1867,16 @@ h5 {
     padding-right: 50px;
     padding-top: 75px;
   }
+  .office {
+    padding-right: 22px;
+  }
 }
 
 @media(max-width: 641px){
   .info2 {
     margin-left: 0px;
     width: 640px;
-    height: 500px;
+    height: 600px;
   }
   .appointment {
     padding-left: 30px;
@@ -1875,6 +1885,9 @@ h5 {
   .map {
     padding-right: 30px;
     padding-top: 90px;
+  }
+  .office {
+    padding-right: 15px;
   }
   .contact {
     padding-left: 30px;  
@@ -1885,7 +1898,7 @@ h5 {
   .info2 {
     margin-left: 0px;
     width: 565px;
-    height: 500px;
+    height: 600px;
   }
   .appointment {
     padding-left: 20px;
@@ -1899,6 +1912,9 @@ h5 {
   .map-img{
     height: 200px;
   }
+  .office {
+    padding-right: 55px;
+  }
   .contact {
     padding-left: 20px;  
   }
@@ -1908,7 +1924,7 @@ h5 {
   .info2 {
     margin-left: 10px;
     width: 460px;
-    height: 600px;
+    height: 825px;
   }
   .appointment {
     padding-left: 100px;
@@ -1923,6 +1939,11 @@ h5 {
   .map-img{
     height: 200px;
   }
+  .office {
+    top: 450px;
+    position: absolute;
+    padding-left: 27px;
+  }
   .contact {
     padding-left: 0px;
     text-align: center;  
@@ -1933,7 +1954,6 @@ h5 {
   .info2 {
     margin-left: 10px;
     width: 380px;
-    height: 600px;
   }
   .appointment {
     padding-left: 60px;
@@ -1942,20 +1962,29 @@ h5 {
   .map {
     padding-left: 70px;
   }
+  .office {
+    padding-left: 8px;
+  }
 }
 
 @media(max-width: 301px){
   .info2 {
     margin-left: 0px;
     width: 300px;
-    height: 600px;
+    height: 770px;;
   }
   .appointment {
     padding-left: 17px;
     font-size: 25px;
   }
   .map {
+    top: 530;
     padding-left: 23px;
+  }
+  .office {
+    padding-top: 10px;
+    padding-left: 0;
+    width: 347px;
   }
 }
 
